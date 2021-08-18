@@ -1,0 +1,14 @@
+k8s:
+  nodes:
+    - name: server1
+      ip: 124.70.94.34
+      user: hendrix
+      pass: Hzq,000000
+    - name: server2
+      ip: 124.70.83.31
+      user: hendrix
+      pass: Hzq,000000
+  cluster-info:
+     endpoint: https://192.168.0.206:6443
+     cafile: ./userConfig/ca.crt
+     usercert: ./k8susers
